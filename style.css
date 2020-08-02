@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+    background-color: white;
+}
+
+.parent-wrapper {
+    height: 90vh;
+    width: 100%;
+    margin-top: 30px;
+   
+    background-color: aliceblue;
+}
+
+.parent-wrapper , .itemsCommon-1  {
+    box-shadow: 2px 2px 3px 1px;
+}
+
+.checkBoxes > input[type='checkbox']
+ {
+    box-shadow: 2px 2px 4px 1px;
+    cursor: pointer;
+}
+
+.parent-wrapper div.item {
+    height: 110px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+/* 
+heading
+ */
+
+.parent-wrapper .one {
+    font-size: 38px;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    padding: 32px 20px;
+    font-weight: 300;
+}
+
+/* 
+ checkboxes */
+
+ .parent-wrapper .two {
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 26px;
+     padding-top : 30px;
+ }
+
+ .parent-wrapper .checkBoxes{
+     border : 1px solid grey;
+     padding-left : 20px;
+     padding-right : 20px;
+     border-top: none;
+     border-bottom: none;
+ }
+
+ .parent-wrapper .two input {
+     height : 30px;
+     width : 30px;
+     display: block;
+     margin : 10px;
+     margin-left : 50px;
+ }
+
+/* 
+ inserting data
+*/
+
+.parent-wrapper .three ,
+  .parent-wrapper .six , 
+  .parent-wrapper .seven {
+    display: flex;
+    justify-content: space-around;
+    padding : 40px;
+    align-items: center;
+}
+
+
+  button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 30px;
+    padding-bottom: 22px;
+    height: 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+button:hover {
+    background-color: grey;
+    color: black;
+}
+
+.parent-wrapper .three input ,
+.parent-wrapper .six input ,
+.parent-wrapper .seven input {
+    height : 30px;
+    padding : 10px;
+}
+
+
+/* 
+output tab */
+
+.parent-wrapper div.itemsCommon-1 {
+    height: 240px;
+    border : 1px solid black;
+    overflow: scroll;
+    display: flex;
+
+}
+
+
+.parent-wrapper div.itemsCommon-1  .localSpace ,
+.parent-wrapper div.itemsCommon-1 .sessionSpace {
+    border : 1px solid black;
+    width : 50%;
+    text-align: center;
+    
+}
+
+.parent-wrapper div.itemsCommon-1  h5 {
+  border-bottom : 2px solid black;
+}
+
+
+
+
+
+
+
+
+/* 
+misc
+ */
+
+input {
+    font-family: 'Raleway', sans-serif;
+}
+
+.parent-wrapper .resetBtn button {
+  background-color:rgba(42, 128, 110, 0.733);
+}
+
+.parent-wrapper .eight button {
+  width : 50%;
+  margin-left: 25%;
+  margin-top : 20px;
+  background-color: rgba(0 , 54 , 43);
+  height : 40px;
+}
+
+
+.keyStyle {
+    background-color: rgb(109, 163, 152);
+    padding : 3px 6px;
+}
+
+.valStyle {
+ text-transform: rgb(109, 163, 152);
+ font-weight: 300;
+ 
+
+}

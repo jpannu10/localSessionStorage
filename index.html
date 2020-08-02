@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Storage </title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+
+
+    <div class="parent-wrapper">
+        <div class="item one">
+            <!-- heading   -->
+            <h3>
+                Local / Session storage.
+            </h3>
+        </div>
+        <div class="item two">
+            <!-- checkboxes -->
+            <div class="checkBoxes local">
+                <label for="localStorageOption">Local Storage : </label>
+                <input type="checkbox" name="nameher" id="localStorageOption">
+            </div>
+
+            <div class="checkBoxes session">
+                <label for="sessionStorageOption">Session Storage : </label>
+                <input type="checkbox" name="nameher" id="sessionStorageOption">
+            </div>
+        </div>
+
+<!-- Inserting Data -->
+        <div class="item three">
+            <div class="inputBoxes">
+                <input class="key" type="text" placeholder="Enter key...">
+            </div>
+            <div class="inputBoxes">
+                <input class="value" type="text" placeholder="Enter Value...">
+            </div>
+            <div class="inputBoxes">
+                <button class="btn">INSERT</button>
+            </div>
+
+        </div>
+<!-- ouput tab -->
+        <div class="item four itemsCommon-1">
+            <div class="localSpace">
+                   <h5> Local Storage </h5>
+                   <span class="localSpaceOutput">
+
+                   </span>
+
+            </div>
+            <div class="sessionSpace">
+                <h5> Session Storage </h5>
+                   <span class="sessionSpaceOutput">
+                       
+                   </span>
+            </div>
+        </div>
+        <!-- 
+ Searching Key         -->
+        <!-- <div class="item six">
+            <div class="searchingBoxes">
+                <input class="inputOutput" type="text" placeholder="type here the key..">
+            </div>
+            <div class="searchingBoxes">
+                <button class="outputBtn"> Find This </button>
+            </div>
+        </div> -->
+        <!-- 
+reset buttons         -->
+        <div class="item seven">
+            <div class="resetBtn">
+                <button class="resetLocalBtn">reset local storage</button>
+            </div>
+            <div class="resetBtn">
+                <button class="resetSessionBtn">reset session storage</button>
+            </div>
+        </div>
+        <!-- 
+Complete reset         -->
+        <div class="item eight">
+            
+            <button class="clearLocalStorage">Completed Reset</button>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<script src="/script.js"></script>
+</body>
+
+</html>
